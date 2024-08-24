@@ -1,11 +1,6 @@
-let vitorias = 90; // número para teste 
-let derrotas = 10; // número para teste 
-let resultado = jogadorRankeada(vitorias, derrotas); // resultado da conta 
-
-
+let resultado = calcularNivel(vitorias = 90, derrotas = 10); // resultado da conta 
 console.log(`O Herói tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`); // o ponto após o resultado é parametro para juntar os dois valores no console.log
-
-function jogadorRankeada (vitorias, derrotas){ // parametro da function
+function calcularNivel(vitorias, derrotas){ // parametro da function
     let saldoVitorias = vitorias - derrotas // subtração para o let acima
     let nivel; // variaveis guardadas devido ao return
 
